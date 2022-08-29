@@ -1,0 +1,39 @@
+:root {
+    --bs-primary: #0f7173;
+    --bs-primary-rgb: 15, 113, 115;
+    --bs-secondary: #ef8354;
+    --bs-danger: #df3b57;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+.css-icon::before {
+    content: '\F3E3';
+    display: inline-block;
+    font-family: bootstrap-icons;
+    line-height: 1;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+}
+
+.container {
+    margin-top: 3rem !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: var(--bs-primary);
+    font-weight: bold;
+}
+
+.card {
+    max-width: 18rem;
+    min-width: 14rem;
+}
